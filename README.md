@@ -13,18 +13,18 @@ I am providing the link of my google drive for the dataset:
 
 # Model Architecture
 
-1️⃣ Four Convolutional layers followed by MaxPooling Layers:
-▪️The convolutional layer is for detecting features in the input images
+1️⃣ Four Convolutional layers followed by MaxPooling Layers:  
+▪️The convolutional layer is for detecting features in the input images  
 ▪️The MaxPooling layer reduces the spatial dimensions by selecting the maximum value from each patch
 
-2️⃣ Flattening layer:
+2️⃣ Flattening layer:  
 ▪️Flatten the output of the convolutional layer into a 1D vector for fully connected layer
 
-3️⃣ Fully Connected Layer:
-▪️Three fully connected layers are added followed by the output of the flattened layer
+3️⃣ Fully Connected Layer:  
+▪️Three fully connected layers are added followed by the output of the flattened layer  
 ▪️Batch Normalization and Dropout are also added to enable fast and stable training along with avoiding overfitting of the model
 
-5️⃣ Final Layer:
+5️⃣ Final Layer:  
 ▪️The final layer is the output layer which has the activation function sigmoid to classify the results into two classes: Cat or Dog
 
 # Results
